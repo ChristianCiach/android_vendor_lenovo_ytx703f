@@ -15,13 +15,17 @@
 LOCAL_PATH := $(call my-dir)
 
 PRODUCT_COPY_FILES += \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/lenovo/YTX703F/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
-    vendor/lenovo/YTX703F/proprietary/etc/firmware/bdwlan30_R01.bin:system/etc/firmware/bdwlan30_R01.bin \
-    vendor/lenovo/YTX703F/proprietary/etc/firmware/btfw32.tlv:system/etc/firmware/btfw32.tlv \
-    vendor/lenovo/YTX703F/proprietary/etc/firmware/btnv32.bin:system/etc/firmware/btnv32.bin \
-    vendor/lenovo/YTX703F/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -29,6 +33,22 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
@@ -50,8 +70,4 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
     vendor/lenovo/YTX703F/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
-    vendor/lenovo/YTX703F/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
-    vendor/lenovo/YTX703F/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/lenovo/YTX703F/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/lenovo/YTX703F/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/lenovo/YTX703F/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
+    vendor/lenovo/YTX703F/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt 

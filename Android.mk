@@ -17,4 +17,3 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter YTX703F,$(TARGET_DEVICE)),)
 
 endif
-
